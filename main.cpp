@@ -1,6 +1,9 @@
 #include <iostream>
-
+using namespace std;
+void function(){
+    cout<<"Printing from the function"<<endl;
+}
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    function();
     return 0;
 }
